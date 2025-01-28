@@ -1,0 +1,244 @@
+table,
+td,
+caption {
+    border: 1px solid #333;
+}
+
+caption {
+    color: red;
+    font-size: large;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
+
+body {
+    background-color: #377E47;
+    font-family: 'Segoe UI';
+    text-align: justify;
+}
+
+header {
+    background-image: url("../img/leaf-1498985_1280-1-e1591179616416.jpg");
+    padding: 15px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+footer {
+    background-image: url("../img/leaf-1498985_1280-1-e1591179616416.jpg");
+    padding: 15px;
+    text-align: center;
+    border-radius: 12px;
+    color: #fff;
+}
+
+section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: cornsilk;
+    padding: 5%;
+    border-radius: 12px;
+}
+
+section h2 {
+    color: brown;
+}
+
+section a {
+    color: rgb(253, 166, 181);
+    font-style: italic;
+    padding: 0 5px;
+}
+
+section a:hover {
+    background-color: rgba(71, 71, 71, 0.082);
+}
+
+h1 {
+    color: black;
+}
+
+
+h2~h3 {
+    color: chocolate;
+}
+
+a {
+    text-decoration-line: none;
+    color: #fff;
+    border-radius: 12px;
+}
+
+nav a {
+    margin: 10px 30%;
+    background-color: #85858531;
+    backdrop-filter: blur(3px);
+    padding: 10px;
+    display: block;
+    font-size: larger;
+
+}
+
+nav :nth-child(1):hover {
+    color: brown;
+    background-color: azure;
+}
+
+nav :nth-child(2):hover {
+    color: darkorange;
+    background-color: beige;
+}
+
+nav :nth-child(3):hover {
+    color: blueviolet;
+    background-color: burlywood;
+}
+
+nav :nth-child(4):hover {
+    color: cadetblue;
+    background-color: cornsilk;
+}
+
+#citation {
+    font-family: 'Franklin Gothic Medium';
+    padding-left: 60px;
+}
+
+.definition {
+    font-family: 'Franklin Gothic Medium';
+    padding-left: 20px;
+    line-height: 24px;
+}
+
+fieldset {
+    background-color: cornsilk;
+    border-radius: 12px;
+    border: 2px solid black;
+}
+
+#center {
+    text-align: center;
+}
+
+#postit {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 0%;
+    margin: 0%;
+}
+
+img {
+    border-radius: 12px;
+    width: 300px;
+    height: 149px;
+}
+
+input,
+select {
+    border: 2px solid #377E47;
+    border-radius: 2px;
+    background-color: #ababab36;
+
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    border: 2px solid #41b15b;
+}
+
+legend {
+    padding: 10px;
+}
+
+.postit-item {
+    background-color: #41b15b;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    border-radius: 8px;
+}
+
+.postit-itemul {
+    display: none;
+    position: absolute;
+    min-width: auto;
+    z-index: 1;
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 8px;
+    padding-right: 10px;
+}
+.postit-item:nth-child(1):hover {
+    color: brown;
+    background-color: azure;
+}
+.postit-item:nth-child(2):hover {
+    color: darkorange;
+    backgro%nd-color: beige;
+}
+
+.postit-item:nth-child(3):hover {
+    color: blueviolet;
+    background-color: burlywood;
+}
+
+.postit-item:nth-child(4):hover {
+    color: cadetblue;
+    background-color: cornsilk;
+}
+.postit-item:nth-child(5):hover {
+    color: rgb(220, 91, 71);
+    background-color: rgba(211, 207, 193, 0.606);
+}
+
+.postit-item:hover .postit-itemul {
+    display: block;
+}
+button {
+    border-radius: 8px;
+    background-color: antiquewhite;
+}
+#tableau_score {
+    display: none;
+}
+
+.result{
+    width: 50%;
+    text-align: center;
+    background-color: cornsilk;
+    border-radius: 12px;
+}
+.titre_result {
+    width: 100%;
+    border-radius: 12px;
+    background-color: cornsilk;
+}
+.essais {
+    background-color: cornsilk;
+}
+
+.quiz {
+    display: none;
+}
+.butt {
+    border-radius: 8px;
+    background-color: antiquewhite;
+}
+
+#send {
+    border-radius: 8px;
+    background-color: antiquewhite;
+}
+
+#exemple{
+    outline: none;
+    border: 2px solid #41b15b;
+}

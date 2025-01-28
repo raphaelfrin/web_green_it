@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>« Green IT - Accueil »</title>
+    <link rel= "stylesheet" href="../css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="../js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="./accueil.html">Acceuil</a>
+            <a href="./GreenITSiteWeb.html">Grenn IT & sites Web</a>
+            <a href="./QuizGreenIT.html">Quiz Green IT</a>
+            <a href="./apropos.html">apropos</a>
+        </nav>
+    </header>
+
+
+    <form method="post" name="Quiz" action="#" class="box" id="QuizId" onsubmit="return false">
+        <fieldset id="informations">
+            <legend><h4>Vos imformations</h4></legend>
+            <label for="nom">Nom:</label>
+            <input type="text" id="nom" name="nom" />
+            <br>
+
+            <label for="Prenom">Prénom:</label>
+            <input type="text" id="Prenom" name="Prenom" />
+            <br>
+
+            <label for="date_de_naissace">date de naissance :</label>
+            <input type="date" id="date_de_naissace" name="date_de_naissace" min="01-01" max="12-31" />
+            <br>
+
+            <label for="Adresse_mail">Adresse mail:</label>
+            <input type="email" id="Adresse_mail" name="Adresse_mail"></input>
+            <br>
+
+            <label for="select">choisis un statu:</label>
+
+            <select name="select" id="select">
+                <option value="">--Please choose an option--</option>
+                <option value="dog">barque</option>
+                <option value="cat">Cat</option>
+                <option value="hamster">Hamster</option>
+                <option value="parrot">Parrot</option>
+                <option value="spider">Spider</option>
+                <option value="goldfish">Goldfish</option>
+            </select>
+            <br>
+        </fieldset >
+        <input  class="butt" type= "button" value =" Commencer le quiz " onClick = "verif()">
+        <fieldset class="quiz">
+            <legend><h4>Quiz sur la green IT</h4></legend>
+            <ol>
+                <li>Qu'est-ce que la Green IT ?</li>
+                <br>
+                <input type="radio" id="une_pratique" name="choix"/>
+                <label for="une_pratique">a) Une pratique visant à réduire l'impact des technologies de l'information.</label>
+                <br>
+                <input type="radio" id="un_systeme" name="choix"/>
+                <label for="un_systeme">b) Un système de recyclage des anciens ordinateur.</label>
+                <br>
+                <input type="radio" id="impact" name="choix"/>
+                <label for="impact">c) Optimiser les performances des appareils électroniques.</label>
+                <p></p>
+                <li>Quelle est l'objectif principal de la Green IT ?</li>
+                <br>
+                <input type="checkbox" id="reduir" name="chec"/>
+                <label for="reduir">a) Réduir la consommation d'énergie.</label>
+                <br>
+                <input type="checkbox" id="minimiser" name="chec"/>
+                <label for="minimiser">b) Minimiser les déchets électroniques.</label>
+                <br>
+                <input type="checkbox" id="optimiser" name="chec"/>
+                <label for="optimiser">c) Optimiser les performances des appareils électroniques.</label>
+                <p></p>
+                <li>Donnez un exemple de pratique Green IT :</li>
+                <br>
+                <textarea id="exemple" name="exemple" rows="5" cols="50"></textarea>
+                <label for="exemple"></label>
+            </ol>
+        </fieldset>
+        
+    </form>
+    <main id="box">
+        <table class="result" id="tableau_score">
+            <caption class ="titre_result" >Résultat du Quiz</caption>
+            <thead>
+                <th>Essai</th>
+                <th>Score</th>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </main>
+    <input  id="send" class="quiz" type= "button" value =" Envoyer " onClick = "SubmitQuiz()">
+
+    <footer>
+        ©️2024-2025 <strong>Raphaël Frin</strong>
+        
+        <p>Tous droits réservés</p>
+        
+        <a href="https://www.greenit.fr/"><img src="../img/images.png" alt="En savoir plus ?" width=20%
+                height="=5%"></a>
+    </footer>
+</body>
+
+
+</html>

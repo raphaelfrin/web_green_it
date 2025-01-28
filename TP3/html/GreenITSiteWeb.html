@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>« Green IT - Accueil »</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="./accueil.html">Acceuil</a>
+            <a href="./GreenITSiteWeb.html">Grenn IT & sites Web</a>
+            <a href="./QuizGreenIT.html">Quiz Green IT</a>
+            <a href="./apropos.html">apropos</a>
+        </nav>
+    </header>
+    <section>
+        <h1>Pratiques de codage efficaces pour réduire la consommation d'énergie</h1>
+        <p id="citation">« L'optimisation des performances web est une démarche globale qui englobe de multiples
+            techniques visant à
+            accélérer la vitesse de chargement, réduire la consommation d'énergie et minimiser l'empreinte carbone d'un
+            site
+            web. »</p>
+        <ol id="postit">
+            <li class="postit-item">
+                <strong>Alléger votre site web</strong>
+                <ul class="postit-itemul">
+
+                    <li>Compresser des éléments de contenus (images, icônes et vidéos) avec des outils tel que (suite
+                        Adobe
+                        ,
+                        Gimp,
+                        ou
+                        Inkscape, la suite Affinity);
+                    </li>
+                    <li>Réparation des liens brisés</li>
+                    <li>Réduction du nombre de requêtes HTTP.</li>
+                </ul>
+            </li>
+            <li class="postit-item">
+                <strong>Faciliter le chargement de contenus de votre site</strong>
+                <ul class="postit-itemul">
+
+                    <li>C’est le principe même de l’utilisation des caches. Car pourquoi recharger ce que l’on a déjà
+                        chargé
+                        ailleurs.
+                    </li>
+                    <li>Les caches limitent les chargements multiples, et allègent donc les requêtes/la consommation
+                        énergétique
+                        de
+                        votre
+                        site.
+                    </li>
+                </ul>
+            </li>
+            <li class="postit-item">
+                <strong>Exploiter le Content Delivery Network (CDN)</strong>
+                <ul class="postit-itemul">
+
+                    <li>
+                        Permet une meilleure vitesse de chargement des pages de votre site
+                    </li>
+                    <li>
+                        Aide également à anticiper les plantages du site en cas d'affluence de visiteurs.
+                    </li>
+                </ul>
+            </li>
+            <li class="postit-item">
+                <strong>Optimisation du code</strong>
+                <ul class="postit-itemul">
+
+                    <li>
+                        Réduire la taille du code, les fichiers JavaScript, CSS et autres...</li>
+                    <li>
+                        Nettoyer les plugins en excès.
+                    </li>
+                </ul>
+            </li>
+            <li class="postit-item">
+                <strong>Optimisation du Serveur</strong>
+                <ul class="postit-itemul">
+
+                    <li>Choisir un hébergement vert</li>
+                    <li>Optimiser les paramètres du serveur</li>
+                    <li>mettre en œuvre des technologies de serveur modernes comme HTTP/2 ou HTTP/3 qui permettent des
+                        transferts de
+                        données
+                        plus efficaces.
+                    </li>
+                </ul>
+            </li>
+        </ol>
+    </section>
+    <section>
+        <table>
+            <caption>Pratiques de codage efficaces</caption>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Pratique</th>
+                    <th>Exemple</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Optimisation de l'algorithme</strong></td>
+                    <td> choisir des algorithmes à complexité réduite pour minimiser les opérations inutiles.</td>
+                    <td> au lieu d'utiliser une recherche linéaire pour trouver un élément dans une liste non
+                        triée, triez
+                        la liste
+                        une fois et utilisez ensuite une recherche binaire.</td>
+                </tr>
+                <tr>
+                    <td><strong>Optimisation de l'algorithme</strong></td>
+                    <td>évitez les boucles inutiles qui consomment des cycles CPU.</td>
+                    <td>au lieu d'utiliser une boucle pour attendre un événement, il est préférable d’utiliser une
+                        fonction d'attente asynchrone.</td>
+                </tr>
+                <tr>
+                    <td><strong>Optimisation de la mémoire</strong></td>
+                    <td>réduisez l'utilisation de la mémoire en évitant les allocations dynamiques excessives.</td>
+                    <td>utilisez des tableaux statiques au lieu de listes dynamiques pour stocker des données de
+                        taille fixe.</td>
+                </tr>
+                <tr>
+                    <td><strong>Gestion de l'énergie du processeur</strong></td>
+                    <td>utilisez des mécanismes de mise en veille pour réduire la consommation d'énergie du CPU
+                        lorsqu'il
+                        est
+                        inactif.</td>
+                    <td>dans une application mobile, configurez des temporisateurs pour mettre en veille le CPU
+                        lorsqu'il
+                        n'est
+                        pas utilisé.</td>
+                </tr>
+                <tr>
+                    <td><strong>Optimisation des E/S</strong></td>
+                    <td>réduire les E/S disque en mettant en cache les données fréquemment utilisées en mémoire.</td>
+                    <td>cachez les requêtes de bases de données fréquemment utilisées pour éviter des accès disque
+                        coûteux.</td>
+                </tr>
+                <tr>
+                    <td><strong>Utilisation de la mise en cache</strong></td>
+                    <td>minimisez les accès à la mémoire principale en tirant parti des caches du processeur.</td>
+                    <td>utilisez des algorithmes de recherche qui exploitent le principe de la localité pour maximiser
+                        l'utilisation du cache.</td>
+                </tr>
+                <tr>
+                    <td><strong>Minimisation des requêtes réseau</strong></td>
+                    <td>réduisez le nombre de requêtes réseau en regroupant les opérations et en minimisant les
+                        transferts de
+                        données inutiles.</td>
+                    <td>utilisez des requêtes batch pour regrouper plusieurs opérations de lecture/écriture de données
+                        en
+                        une
+                        seule requête.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <footer>
+        ©️2024-2025 <strong>Raphaël Frin</strong>
+
+        <p>Tous droits réservés</p>
+
+        <a href="https://www.greenit.fr/"><img src="../img/images.png" alt="En savoir plus ?" width=20%
+                height="=5%"></a>
+    </footer>
+</body>
+
+</html>
